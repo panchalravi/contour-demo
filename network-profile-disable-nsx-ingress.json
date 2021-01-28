@@ -1,0 +1,14 @@
+{
+    "name": "nsx_disable_ncp_ingress",
+    "description": "Network profile to allow 3rd party ingress controller",
+    "parameters" : {
+        "cni_configurations": {
+            "type": "nsxt",
+            "parameters": {
+                "nsx_lb": true,
+                "nsx_ingress_controller": false
+            }
+        }
+    }
+}
+    
